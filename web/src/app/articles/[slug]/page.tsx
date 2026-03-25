@@ -133,7 +133,7 @@ function QaSectionContent({ item }: { item: unknown }) {
         return (
           <div
             key={key}
-            className="rounded-[6px] px-3 py-3 space-y-2"
+            className="rounded-[6px] px-3 py-3 space-y-3"
           >
             {question && (
               <div className="inline-flex items-center rounded-[6px] border border-[#27C08A] px-[10px] py-2">
