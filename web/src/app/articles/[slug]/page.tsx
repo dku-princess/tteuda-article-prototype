@@ -146,7 +146,6 @@ function QaSectionContent({ item }: { item: unknown }) {
               <div
                 className={`text-[14px] leading-relaxed text-[#444444] ${markdownBlockClassName}`}
               >
-                <p className="mb-1 font-medium">A.</p>
                 <ReactMarkdown remarkPlugins={[remarkGfm]}>
                   {normalizeCmsMarkdown(answer)}
                 </ReactMarkdown>
